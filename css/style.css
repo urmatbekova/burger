@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+#header {
+    padding: 15px 0;
+    background: #FFFFFF;
+    box-shadow: 0 0 14px #000000;
+    margin-bottom: 70px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btn {
+    padding: 10px 30px;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid grey;
+    transition: .4s;
+    margin: 0 20px 0 0;
+}
+
+.header-btn:hover {
+    background: #000;
+    color: white;
+    transform: scale(1.1);
+}
+.header-icon {
+    color: #000000;
+    font-size: 20px;
+}
+.search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    padding-left: 20px;
+    margin-bottom: 70px;
+}
+.hero-title {
+    font-family:'Roboto', sans-serif ;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 30px;
+}
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hero-img {
+    margin-bottom: 20px;
+}
+.hero-gen {
+    margin-bottom: 20px;
+}
+#uber {
+    background: #262626;
+    padding: 50px;
+}
+.with {
+    width: 100%;
+    height: 2px;
+    background: grey;
+}
+.uber-img {
+    margin-bottom: 50px;
+}
+#select {
+    background: #262626;
+    padding: 50px 0;
+}
+.select-sel {
+    width: 200px;
+    height: 50px;
+    background: #3b3b3b;
+    border-radius:2px;
+    color: white;
+    padding-left: 50px;
+    margin-bottom: 50px;
+
+
+}
+.select-icon {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin-top: -85px;
+    margin-left: 10px;
+    outline: none;
+}
+.select-title {
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto" ,sans-serif ;
+    margin-bottom: 20px;
+}
+.select-title2 {
+    color: green;
+}
+.select-icons {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.select-icons div {
+    color: white;
+
+
+}
+.select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.select-items h1 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Roboto" , sans-serif;
+    padding: 15px 0 ;
+}
+#end {
+    background: #262626;
+    padding: 50px;
+}
+.height {
+    width: 100%;
+    height: 2px;
+    background: grey;
+}
+.end img{
+    margin: 0 20px;
+}
+.end-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
